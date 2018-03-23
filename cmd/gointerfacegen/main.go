@@ -3,13 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	_ "go/ast"
-	_ "go/parser"
-	_ "go/token"
 	"go/types"
-	"golang.org/x/tools/go/loader"
 	"log"
 	"strings"
+
+	"golang.org/x/tools/go/loader"
 )
 
 func main() {
